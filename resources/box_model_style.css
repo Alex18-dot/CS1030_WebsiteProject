@@ -1,0 +1,49 @@
+/* center everything on the page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4a742;
+  color: black;
+  text-align: center;
+}
+
+/* headings */
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* paragraphs */
+
+p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* list */
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* table */
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;   /* centers the table itself */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+/* images */
+
+img {
+  display: block;
+  margin: 10px auto;
+}
